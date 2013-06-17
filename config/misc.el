@@ -1,5 +1,9 @@
+;; setup the exec-path and shell path for OS X
+(when (eq system-type 'darwin)
+  (exec-path-from-shell-initialize))
+
 ;; let emacs find homebrews
-(push "/usr/local/bin" exec-path)
+;; (push "/usr/local/bin" exec-path)
 
 ;; Save file backups in a temporary directory.
 (setq backup-directory-alist `((".*" . ,temporary-file-directory)))

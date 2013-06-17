@@ -18,7 +18,9 @@
     clojure-test-mode
     coffee-mode
     cperl-mode
+    dash
     deft
+    exec-path-from-shell
     feature-mode
     flymake
     flymake-cursor
@@ -39,6 +41,7 @@
     pivotal-tracker
     prolog
     rainbow-mode
+    rubocop
     ruby-mode
     sass-mode
     scss-mode
