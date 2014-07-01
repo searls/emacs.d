@@ -26,7 +26,7 @@ first install a JDK
 
 enable flymake for JavaScript
 
-`$ brew install jsl`
+`$ brew tap homebrew/binary && brew install jsl`
 
 enable flymake for CoffeeScript
 
