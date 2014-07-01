@@ -24,6 +24,7 @@
     window-number
     yasnippet
     projectile
+    ack-and-a-half
     
     ;; themes
     color-theme-eclipse
