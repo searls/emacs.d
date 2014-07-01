@@ -25,6 +25,7 @@
     yasnippet
     projectile
     ack-and-a-half
+    exec-path-from-shell
     
     ;; themes
     color-theme-eclipse

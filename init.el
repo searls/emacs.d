@@ -9,6 +9,7 @@
 (setq config-dir (file-name-directory (or (buffer-file-name) load-file-name)))
 (add-to-list 'load-path config-dir)
 
+
 ;; my super-special configurations
 (load "packages")
 (load "functions")
@@ -24,7 +25,7 @@
 (load "config/flymake")
 (load "config/ispell")
 (load "config/kibit")
-(load "config/pivotal")
+(load "config/path")
 (load "config/yasnippet")
 
 ;; extend modes
