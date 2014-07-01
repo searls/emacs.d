@@ -7,3 +7,5 @@
 
 ;; markdown should not have highlighted long lines
 (add-hook 'markdown-mode-hook (setq whitespace-style nil))
+
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
