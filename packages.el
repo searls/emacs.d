@@ -23,9 +23,10 @@
     smex ; ido-mode for M-x commands
     window-number
     yasnippet
-
+    projectile
+    
     ;; themes
-    color-theme-solarized
+    color-theme-eclipse
 
     ;; clojure
     ac-nrepl
@@ -72,10 +73,7 @@
     starter-kit-ruby
 
     ;; other programming
-    cperl-mode
     magit
-    pivotal-tracker
-    prolog
     yaml-mode)
   "A list of packages to ensure are installed at launch.")
 

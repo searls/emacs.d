@@ -1,4 +1,4 @@
-Matthew Boston's Emacs 24 config
+~~Matthew Boston's~~ @searls' Emacs 24 config
 
 ## Dependencies
 
@@ -10,13 +10,11 @@ This works best with Emacs 24. You can install via
 
 1. First start by cloning this repo to you local machine.
 
-`$ git clone git@github.com:bostonaholic/emacs.d.git`
+`$ git clone git@github.com:searls/emacs.d.git`
 
 2. Symlink the repo into your home directory `$ ln -s /path/to/repo ~/.emacs.d`
 
-3. Enable the option key to be `meta`.
-
-For Terminal.app, starting from Snow Leopard: Go to Preferences > Settings > Keyboard > Use option as meta key.
+3. Enable the option key to be `meta`. (For Terminal.app, starting from Snow Leopard: Go to Preferences > Settings > Keyboard > Use option as meta key.)
 
 ## External Packages
 

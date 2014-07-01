@@ -57,13 +57,11 @@ Position the cursor at its beginning, according to the current mode."
   (forward-line 1)
   (indent-according-to-mode))
 
-(defun msb/dark ()
-  (interactive)
-  (load-theme 'solarized-dark t))
-
 (defun msb/light ()
   (interactive)
-  (load-theme 'solarized-light t))
+  (require 'color-theme)
+  (color-theme-initialize)
+  (require 'color-theme-eclipse))
 
 (defun msb/none ()
   (interactive)

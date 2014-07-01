@@ -30,10 +30,8 @@
 ;; extend modes
 (load "extends/clojure-mode")
 (load "extends/cider-mode")
-(load "extends/cperl-mode")
 (load "extends/dired-mode")
 (load "extends/html-mode")
-(load "extends/prolog-mode")
 (load "extends/ruby-mode")
 (load "extends/scss-mode")
 (load "extends/sh-mode")
